@@ -7,8 +7,8 @@ import AnimatedCube from "@/components/3d-cube";
 import { useState, useRef } from "react";
 
 const skills = [
-  "React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5", "CSS3",
-  "JavaScript", "Git", "Responsive Design", "UI/UX Design"
+  "React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5", "Sanity",
+  "JavaScript", "Git", "Responsive Design", "UI/UX Design", "ChatGPT", "SEO" , "Figma", "VERCEL" , "Netlify" 
 ];
 
 const projects = [

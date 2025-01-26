@@ -39,10 +39,6 @@ export default function RootLayout({
                     <Briefcase className="w-4 h-4" />
                     <span>Projects</span>
                   </Link>
-                  <Link href="/blog" className="flex items-center gap-2 hover:text-primary transition-colors">
-                    <BookOpen className="w-4 h-4" />
-                    <span>Blog</span>
-                  </Link>
                   <Link href="/services" className="flex items-center gap-2 hover:text-primary transition-colors">
                     <Wrench className="w-4 h-4" />
                     <span>Services</span>

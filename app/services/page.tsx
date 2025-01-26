@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code, Layout, Lightbulb, Rocket, Search, Shield } from "lucide-react";
+import { Code, Layout, Lightbulb, Rocket, Search, Shield, MessageCircle } from "lucide-react";
 
 const services = [
   {
@@ -37,18 +37,17 @@ const services = [
       "Performance Optimization"
     ]
   },
-
   {
-    icon: Lightbulb,
-    title: "Consultation",
-    description: "Expert advice on web development strategies and technical solutions.",
+    icon: MessageCircle,
+    title: "Prompt Support ChatGPT",
+    description: "Can search for information, answer questions, and perform common tasks.",
     features: [
-      "Technical Planning",
-      "Architecture Design",
-      "Technology Selection",
-      "Best Practices Guide"
+      "Answer Questions",
+      "Search Information",
+      "Perform Tasks",
+      "Chat with Users"
     ]
-  }
+  },
 ];
 
 export default function ServicesPage() {
