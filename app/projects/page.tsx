@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, ExternalLink, Github } from "lucide-react";
+import { Briefcase, ExternalLink } from "lucide-react";
 import Link from "next/link";
 
 const projects = [
@@ -11,15 +11,15 @@ const projects = [
     image: "/dabba.PNG",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     liveUrl: "https://dabba-135z.vercel.app/",
-    details: "Built a scalable e-commerce platform with features like product management, cart functionality, and dynamic routing."
+    details: "Built a scalable e-commerce platform with features like product management, cart functionality, and dynamic routing.",
   },
   {
-    title: "Cat Blog Webiste",
-    description: "A blogging wesite that showcases the best cat photos and care tips",
+    title: "Cat Blog Website",
+    description: "A blogging website that showcases the best cat photos and care tips",
     image: "/cat.PNG",
-    technologies: ["Nextjs", "TailwindCSS","Typescript"],
+    technologies: ["Nextjs", "TailwindCSS", "Typescript"],
     liveUrl: "https://newcatblog3-ywkx.vercel.app/",
-    details: "Developed a real-time Cat Blogging Website with features like Cat Blogs."
+    details: "Developed a real-time Cat Blogging Website with features like Cat Blogs.",
   },
   {
     title: "Portfolio Website",
@@ -27,8 +27,8 @@ const projects = [
     image: "/port.PNG",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     liveUrl: "https://custom-portfolio-ruby.vercel.app/",
-    details: "Developed a beautiful and great looking Portfolio Website with about us and contact page."
-  }
+    details: "Developed a beautiful and great looking Portfolio Website with about us and contact page.",
+  },
 ];
 
 export default function ProjectsPage() {
@@ -59,11 +59,10 @@ export default function ProjectsPage() {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all"
                   />
                   <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                     <div className="flex gap-4">
-                    
                       <Link
                         href={project.liveUrl}
                         className="p-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-colors"
