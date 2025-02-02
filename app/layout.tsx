@@ -43,6 +43,14 @@ export default function RootLayout({
                     <Wrench className="w-4 h-4" />
                     <span>Services</span>
                   </Link>
+                  <Link 
+  href="/Rabia_farooq_-_Front_end_Developer.pdf" 
+  className="flex items-center gap-2 hover:text-primary transition-colors" 
+  download
+>
+  <BookOpen className="w-4 h-4" />
+  <span>Resume</span>
+</Link>
                 </div>
               </div>
             </div>
