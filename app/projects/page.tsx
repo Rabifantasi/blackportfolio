@@ -29,6 +29,22 @@ const projects = [
     liveUrl: "https://custom-portfolio-ruby.vercel.app/",
     details: "Developed a beautiful and great looking Portfolio Website with about us and contact page.",
   },
+  {
+    title: "WordPress Website",
+    description: "A website built with WordPress, Elementor, and SEO",
+    image: "/33.png.png",
+    technologies: ["WordPress", "Elementor", "SEO"],
+    liveUrl: "https://your-wordpress-site.com/",
+    details: "Developed a fully functional WordPress website using Elementor for design flexibility and SEO best practices for better search rankings.",
+  },
+  {
+    title: "E-commerce Website",
+    description: "A website built with Next.js, TypeScript, and Tailwind CSS",
+    image: "/334.png",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+    liveUrl: "https://your-ecommerce-site.com/",
+    details: "Created a dynamic and responsive e-commerce platform with seamless shopping experiences, integrating product pages, cart functionality, and checkout system.",
+  }
 ];
 
 export default function ProjectsPage() {

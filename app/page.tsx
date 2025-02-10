@@ -29,6 +29,18 @@ const projects = [
     description: "A personal portfolio website built with Next.js, TypeScript, and Custom CSS",
     image: "/port.PNG",
    
+  },
+  {
+    title: "Wordpress Website",
+    description: "A website built with wordpress, elementor and SEO",
+    image: "/33.png.png",
+   
+  },
+  {
+    title: "e-commerce Website",
+    description: "A website built with Next.js, TypeScript, and Tailwind CSS ",
+    image: "/334.png",
+   
   }
 ];
 

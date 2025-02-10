@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code, Layout, Lightbulb, Rocket, Search, Shield, MessageCircle } from "lucide-react";
+import { Code, Layout, Lightbulb, Rocket, Search, Shield, MessageCircle, Globe } from "lucide-react";
 
 const services = [
   {
@@ -35,6 +35,17 @@ const services = [
       "On-page SEO",
       "Technical SEO",
       "Performance Optimization"
+    ]
+  },
+  {
+    icon: Globe,
+    title: "WordPress with Elementor",
+    description: "Building professional websites with WordPress and Elementor for seamless customization.",
+    features: [
+      "Custom Elementor Designs",
+      "Fast & Responsive Layouts",
+      "SEO-Optimized Content",
+      "Easy-to-Manage CMS"
     ]
   },
   {
