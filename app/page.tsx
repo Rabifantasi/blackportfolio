@@ -8,7 +8,7 @@ import { useState, useRef } from "react";
 
 const skills = [
   "React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5", "Sanity",
-  "JavaScript", "Git", "Responsive Design", "UI/UX Design", "ChatGPT", "SEO" , "Figma", "VERCEL" , "Netlify" 
+  "JavaScript", "Git", "Responsive Design", "UI/UX Design", "Wordpress", "ChatGPT", "SEO" , "Figma", "VERCEL" , "Netlify" 
 ];
 
 const projects = [
