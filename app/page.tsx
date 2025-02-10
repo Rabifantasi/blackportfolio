@@ -224,10 +224,10 @@ export default function Home() {
               Hello! I'm Rabia, a passionate Frontend Developer with a keen eye for creating beautiful and functional web experiences. Currently in my learning journey, I'm constantly exploring new technologies and pushing my boundaries in web development.
             </motion.p>
             <motion.p variants={item} className="text-lg leading-relaxed mb-6">
-              My journey in web development started with a curiosity for creating interactive user interfaces. Since then, I've been working on various projects, learning new technologies, and improving my skills in React, Next.js, and modern web development practices.
+              My journey in web development and wordpress started with a curiosity for creating interactive user interfaces. Since then, I've been working on various projects, learning new technologies, and improving my skills in React, Next.js, and modern web development practices.
             </motion.p>
             <motion.p variants={item} className="text-lg leading-relaxed">
-              I believe in writing clean, maintainable code and creating user experiences that are both beautiful and functional. When I'm not coding, you can find me exploring new design trends, learning about web accessibility, or contributing to the developer community.
+              I believe in writing clean, maintainable code and creating user experiences wordpress and nextjs websites that are both beautiful and functional. When I'm not coding, you can find me exploring new design trends, learning about web accessibility, or contributing to the developer community.
             </motion.p>
           </motion.div>
         </div>
